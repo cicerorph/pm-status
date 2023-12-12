@@ -61,7 +61,7 @@ const checkStatus = async () => {
             statusDiv.textContent = 'PenguinMod is Down..';
             document.querySelector('.lds-ripple').style.opacity = 0;
         } else {
-            statusDiv.textContent = 'PenguinMod is Down..';
+            statusDiv.textContent = 'An error ocurred in our part, please wait us to fix it (probably 5 mins)';
             document.querySelector('.lds-ripple').style.opacity = 0;
         }
     }
